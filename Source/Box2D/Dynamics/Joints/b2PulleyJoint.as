@@ -35,6 +35,7 @@ use namespace b2internal;
 * Yes, the force transmitted is scaled by the ratio.
 * The pulley also enforces a maximum length limit on both sides. This is
 * useful to prevent one side of the pulley hitting the top.
+* 
 * @see b2PulleyJointDef
 */
 public class b2PulleyJoint extends b2Joint
